@@ -6,14 +6,20 @@ public class MazeFinch {
     public static void main(String[] args) {
         Finch myFinch = new Finch();
 
-        myFinch.playNote(60,0.5);
+        // What do I want my finch to do?
+        myFinch.setMove("F", 100, 50);
+        myFinch.setTurn("L", 90, 100);
+        myFinch.setMove("F", 45, 50);
+        myFinch.setTurn("L", 90, 100);
+        myFinch.setMove("F", 38, 50);
+        myFinch.setTurn("R", 90, 100);
+        myFinch.setMove("F", 30, 50);
 
-        for (int i = 0; i < 10; i++) {
-            myFinch.setBeak(100, 100, 100);
-            myFinch.pause(1);
-            myFinch.setBeak(0, 0, 0);
-            myFinch.pause(1);
-        }
+
+
+
+
+        System.out.println(myFinch.getDistance());
 
         myFinch.stopAll();
         myFinch.disconnect();
