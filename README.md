@@ -9,7 +9,7 @@ In this project-based learning experience, you will program a Finch 2.0 robot to
 2. Create an artistic drawing using the robot's movements
 3. Navigate a maze autonomously
 
-Your program must demonstrate your understanding of Java programming concepts from APCSA and object-oriented design principles while creating an engaging robot behavior.
+Your program must demonstrate your understanding of Java programming concepts from APCSA and object-orietnted design principles while creating an engaging robot behavior.
 
 ## Learning Objectives
 - Apply Java programming concepts in a physical computing context
@@ -18,101 +18,15 @@ Your program must demonstrate your understanding of Java programming concepts fr
 - Create well-documented and maintainable code
 - Practice technical communication through presentations and documentation
 
-## Timeline/Checklist
+## Description of design choices
+For our Finch Robot we chose to make it go throughout the maze that consisted of about 7 turns from start to finish. This maze seemed the most engaging and coolest. So, we programmed a sequence of precise turns and movements to get from start to finish. As well, including object-oriented programming principals by changing up and organizing our code into methods for different movement patterns.
 
-### Planning & Research
-- Choose your challenge: dance, drawing, or maze navigation
-- Explore the Finch API documentation
-- Review sample programs from BirdBrain Technologies
-- Create a project plan with pseudocode/flow charts/
-- Clone and set up GitHub repository for your project
+## Challenges faced and solutions
+One of the biggest challenges we faced was having to constantly run back and forth between the computer and maze to test if the code was working as instructed. The Finch robot kept disconnecting and us having to reconnect is very often slowed down our progress even more. The solution we came u with was to break our code down into smaller parts and testing each part seperately, this saved us a bunch of time and let us know what was needed and what was done. Another problem we faced was that the robot kept hitting the cardboard walls and measurements/speed being wrong. To figure this out we took a ruler and wrote down all the correct measurements on an index card ensuring the right measurements and we slowed down the speed of the motors and slowly increased it when we felt like we have got the correct amount right. Lastly, the set-up part of the Finch robot rocess was really confusing! We got lost and were a little behind. For a quick and informative solution we called our teacher, Mr. Aiello in which he helped us get set up.
 
-### Development
-- Write initial code implementation
-- Test basic functionality with the Finch robot
-- Debug and refine your approach
-- Document your progress and challenges
+## Future enhancements
+Since time wasn't really on our side we couldn't risk having any major problems or much coding errors, we decided to keep it simple but yet very effective. Furthermore, if we were to do any future enhancements we would have added wall censors to our Finch Robot, which would show the advancement of it and the robot going smoothly throughout the maze. As well, instead of just staying with the maze we could perhaps switch to a different role such as making the robot draw something cool.
 
-### Implementation & Testing
-- Complete core functionality implementation
-- Conduct thorough testing with the robot
-- Optimize code for readability and efficiency
-- Start preparing documentation
+## Video or images of your robot in action (embedded or linked)
+https://youtube.com/shorts/OwW6CRBb-wg?si=OhPh0MQyqNiRhv9h
 
-### Finalization
-- Finalize code and ensure complete functionality
-- Complete README documentation
-- Prepare for demonstration
-- Submit final project to GitHub
-
-### Deployment
-- Demonstrate your project
-
-## Required Components
-
-### Technical Requirements
-Your program must include at least 5 of these Java/OOP concepts:
-- Inheritance/Subclasses
-- Method overloading or overriding
-- Arrays or ArrayLists
-- Loops (for, while, etc.)
-- Conditional statements
-- Exception handling
-- File I/O for configuration or logging
-- Constants and static methods
-- User input processing
-
-### Documentation Requirements
-- Well-commented code with appropriate Javadoc
-- GitHub repository with organized file structure
-- README.md file including:
-  * Project description and objectives
-  * Description of design choices
-  * Challenges faced and solutions
-  * Future enhancements
-  * Video or images of your robot in action (embedded or linked)
-
-## Project Rubric (16 points total)
-
-| Category | 4 Points | 3 Points | 2 Points | 1 Point |
-|----------|----------|----------|----------|---------|
-| **Program Functionality** | Program fully accomplishes the chosen challenge with additional creative features. Robot behavior is refined, reliable, and impressive. | Program successfully completes the chosen challenge with minor limitations. Robot behavior is consistent and functional. | Program partially completes the challenge with some inconsistencies. Robot behavior has notable limitations. | Program fails to achieve the core objectives of the challenge. |
-| **Code Quality & OOP Implementation** | Code demonstrates excellent OOP design with 6+ APCSA concepts implemented effectively. Code is elegant, efficient, and well-structured. | Code uses good OOP practices with 5 APCSA concepts implemented correctly. Code is readable and organized. | Code implements basic OOP structure with minimum required APCSA concepts. Some organizational issues present. | Code lacks proper OOP implementation or has significant structural problems. |
-| **Documentation & GitHub Repository** | Exceptional documentation with comprehensive README, well-commented code, and excellent repository organization. | Complete documentation with clear README, adequately commented code, and organized repository. | Basic documentation with minimal README, some comments, and basic repository structure. | Insufficient documentation or poorly organized repository. |
-| **Development & Version Control** | The repository demonstrates excellent use of Git and GitHub by having many commits and updates to one or more branches of the repository | The repository shows great use of Git and GitHub by having more than 2 new commits to the repository | The repository demonstrates basic used of Git and GitHub by having at least 1 new commit to a branch of the repository | The repository only have the initial clone of the or no project submitted |
-
-## Challenge-Specific Guidelines
-
-### Dance Challenge
-Create a choreographed dance routine for your Finch that synchronizes:
-- Movement patterns (forward/backward, turns)
-- LED light displays (beak and tail)
-- Sound patterns using the buzzer
-- Consider using arrays to store sequences of movements/lights/sounds
-
-### Drawing Challenge
-Program your Finch to create an artistic drawing:
-- Design an algorithm to create a recognizable pattern or image
-- Use precise motor control for clean lines
-- Consider incorporating sensor data to affect the drawing
-- Create a system to track position on the drawing surface
-
-### Maze Navigation Challenge
-Program your Finch to navigate through a maze:
-- Use distance sensors to detect walls
-- Implement an algorithm for maze solving (wall following, etc.)
-- Consider storing and analyzing the path taken
-- Add visual/audio feedback during navigation
-- Optional: Allow for maze "learning" and optimization on repeated runs
-
-## Resources
-- Finch API Documentation (provided in class)
-- [BirdBrain Technologies Learning Resources](https://learn.birdbraintechnologies.com/finch/java/program/)
-- [Java API Documentation](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
-
-## Extension Opportunities
-If you complete your chosen challenge early, consider:
-- Adding sensor-responsive behaviors to your program
-- Creating a user interface to control robot parameters (JFrame, Swing, JavaFX)
-- Implementing multiple modes of operation
-- Adding an obstacle detection and avoidance system
